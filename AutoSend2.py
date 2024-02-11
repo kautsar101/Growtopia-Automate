@@ -3,13 +3,14 @@ import time
 import threading
 
 def send_request():
+    world = ""
     url = "https://discord.com/api/v9/channels/762448042011000842/messages"
-
+    auth_link = ""
     auth = {
-        'authorization' : 'OTk3MzgyNTcxMzcxNTMyMzUw.GO-7Ef.gssrnKjxmS6vL2ARsqEROte04pbuYzcXQLk6Cg'
+        'authorization' : auth_link
     }
 
-    message = '\n'.join(['🟠 Sell FuelPack ⛽  11/1 at ▶️ MAFFF ◀️' for _ in range(3)])
+    message = '\n'.join([f'🟠 Sell FuelPack ⛽  11/1 at ▶️ {world} ◀️' for _ in range(3)])
     msg = {
         'content' : message
     }
