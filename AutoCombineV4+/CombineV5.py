@@ -18,7 +18,10 @@ xy_change = True
 strt_2=0
 costtime = []
 world_count = 0
-worlds = ["" ]
+worlds = ["EZTIH" ,"KCWRI" ,"AZOX2" ,"CHFFO" ,"XRBRC" ,
+          "BLNZQ" ,"UUWJD" ,"PQKZ5" ,"SDQAR" ,"SCNFP" ,
+          "LZBVR" , "YSQMO" ,"OSCARSTAT7" ,"BFTXO" ,"SEFTASC" ,
+          "LIOSM" ,"AWONDO" , "CHSJKL" ,"KYAEE" ,"VEMSTATS","EZTIH" ]
 
 def toggle():
     global start
