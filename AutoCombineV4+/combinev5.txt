@@ -1,0 +1,338 @@
+click(39,130), Confirmer = utYfull(0.65)
+Wrench(0.95)
+
+
+UtY(36, 120) Confimer = utRw(0.65)
+RetItem(0.9)
+Retrive(0.9)
+UtB(36, 43) Confimer = utRw(0.65)
+RetItem(0.9)
+Retrive(0.9)
+UtP(113, 43) Confimer = utRw(0.65)
+RetItem(0.9)
+Retrive(0.9)
+UtG(190, 197) Confimer = utRw(0.65)
+RetItem(0.9)
+Retrive(0.9)
+UtR(190, 43) Confimer = utRw(0.65)
+RetItem(0.9)
+Retrive(0.9)
+
+
+IF CARRYNG 200 CANCEL
+
+pickY(0.9)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedM)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utY (utY)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickY (chemY)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedM)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utY (utY)
+retrive ite(retrieve items)
+retrive (retrieve)
+utB (utB)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickY (chemY)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedM)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utY (utY)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickY (chemY)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedM)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utB (utB)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickG (chemG)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickM (chemM)
+drop(drop)
+ok(ok)
+
+punchlab(droppedM)
+punchLab(lab)
+goLeft(not(lab))
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utG (utG)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickG (chemG)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickM (chemM)
+drop(drop)
+ok(ok)
+
+punchlab(droppedM)
+punchLab(lab)
+goLeft(not(lab))
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utG (utG)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickG (chemG)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedslime)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utG (utG)
+retrive ite(retrieve items)
+retrive (retrieve)
+utB (utB)
+retrive ite(retrieve items)
+retrive (retrieve)
+utP (utP)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickG (chemG)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedslime)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utG (utG)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickG (chemG)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedslime)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utG (utG)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickG (chemG)
+drop(drop)
+ok(ok)
+pickB (chemB)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedslime)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+IF SLIME 200
+    storage(storage)
+    deposit(deposit)
+    pickslime(slime200)
+    storeitems(storeitems)
+    exit(x)
+    goLeft(droppedslime)
+    goKanan
+    facingLeft(press(a))
+    wrench(wrench)
+
+utG (utG)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickG (chemG)
+drop(drop)
+ok(ok)
+pickR (chemR)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedshock)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+utG (utG)
+retrive ite(retrieve items)
+retrive (retrieve)
+utP (utP)
+retrive ite(retrieve items)
+retrive (retrieve)
+
+pickG (chemG)
+drop(drop)
+ok(ok)
+pickR (chemR)
+drop(drop)
+ok(ok)
+pickP (chemP)
+drop(drop)
+ok(ok)
+
+punchlab(droppedP)
+punchLab(lab)
+goLeft(droppedshock)
+goKanan
+facingLeft(press(a))
+wrench(wrench)
+
+storage(storage)
+deposit(deposit)
+pickShock(shockinator)
+storeitems(storeitems)
+deposit(deposit)
+pickSlime(slime)
+storeitems(storeitems)
+exit(x)
+wrench(wrench)
+
+utR (utR)
+retrive item(retrieve items)
+retrive (retrieve)
+pickR(chemR)
+recycle(recycle)
+write200
+ok(ok)
+========x5=====
+utR (utR)
+IF CHANGE ITEMS:
+    close(close)
+retrive item(retrieve items)
+retrive (retrieve)
+
+enterdoor(press(space))
+right(press(d))
+self(Purpleset)
+fuel(fuel)
+addthem(addthem)
+IF MACHINE  
+goright
+IF COUNT % 5 == 0
+    punchdate(dgate)
+self(Purpleset)
+enter world
+
+
+
+
+
+
+
+
